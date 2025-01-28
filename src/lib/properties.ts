@@ -18,7 +18,7 @@ export interface Property {
       bathrooms: 1,
       rent: 1200,
       status: "available",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=400&h=300&fit=crop",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ export interface Property {
       bathrooms: 2,
       rent: 1800,
       status: "rented",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop",
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ export interface Property {
       bathrooms: 2.5,
       rent: 1600,
       status: "available",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=400&h=300&fit=crop",
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ export interface Property {
       bathrooms: 1,
       rent: 1100,
       status: "available",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&h=300&fit=crop",
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export interface Property {
       bathrooms: 3,
       rent: 2500,
       status: "rented",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop",
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ export interface Property {
       bathrooms: 2,
       rent: 1700,
       status: "available",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1515263487990-61b07816b324?w=400&h=300&fit=crop",
     },
     {
       id: 7,
@@ -78,7 +78,7 @@ export interface Property {
       bathrooms: 1,
       rent: 1400,
       status: "rented",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=400&h=300&fit=crop",
     },
     {
       id: 8,
@@ -88,7 +88,7 @@ export interface Property {
       bathrooms: 3.5,
       rent: 3000,
       status: "available",
-      imageUrl: "https://via.placeholder.com/400x300",
+      imageUrl: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&h=300&fit=crop",
     }
 ]
   

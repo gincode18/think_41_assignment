@@ -1,18 +1,14 @@
 import { properties } from "@/lib/properties"
+import PropertyDetails from "@/components/PropertyDetails"
+import { notFound } from "next/navigation"
 
 export default function PropertyPage({ params }: { params: { id: string } }) {
   const property = properties.find((p) => p.id === Number.parseInt(params.id))
 
   if (!property) {
-    return <div>Property not found</div>
+    notFound()
   }
 
-  return (
-    <div>
-      <h1>Property Details</h1>
-      <p>Address: {property.address}</p>
-      <p>Type: {property.type}</p>
-    </div>
-  )
+  return <PropertyDetails property={property} />
 }
 
