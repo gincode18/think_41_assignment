@@ -26,6 +26,9 @@ export default function RootLayout({
               <Link href="/" className="mr-4 hover:underline">
                 Home
               </Link>
+              <Link href="/tenants/add" className="mr-4 hover:underline">
+                Add Tenant
+              </Link>
               <Link href="#" className="hover:underline">
                 About
               </Link>
