@@ -29,6 +29,9 @@ export default function RootLayout({
               <Link href="/tenants/add" className="mr-4 hover:underline">
                 Add Tenant
               </Link>
+              <Link href="/agreements/create" className="mr-4 hover:underline">
+                Create Agreement
+              </Link>
               <Link href="#" className="hover:underline">
                 About
               </Link>
